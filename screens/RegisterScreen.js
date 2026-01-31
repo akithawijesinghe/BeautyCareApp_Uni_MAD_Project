@@ -36,12 +36,12 @@ export default function RegisterScreen({ navigation }) {
   return (
     <View style={styles.container}>
 
-      {/* Decorative Circles */}
+
       <View style={styles.circleLeft} />
       <View style={styles.circleRight} />
       <View style={styles.circleSmall} />
 
-      {/* Card */}
+
       <View style={styles.card}>
 
         <Text style={styles.title}>Create Account ✨</Text>
@@ -49,7 +49,7 @@ export default function RegisterScreen({ navigation }) {
           Join BeautyCare+ today
         </Text>
 
-        {/* Username */}
+
         <TextInput
           placeholder="Username"
           value={username}
@@ -57,7 +57,7 @@ export default function RegisterScreen({ navigation }) {
           style={styles.input}
         />
 
-        {/* Password */}
+
         <TextInput
           placeholder="Password"
           secureTextEntry
@@ -66,7 +66,7 @@ export default function RegisterScreen({ navigation }) {
           style={styles.input}
         />
 
-        {/* Register Button */}
+
         <TouchableOpacity
           style={styles.button}
           onPress={registerUser}
@@ -74,12 +74,12 @@ export default function RegisterScreen({ navigation }) {
           <Text style={styles.buttonText}>REGISTER</Text>
         </TouchableOpacity>
 
-        {/* Message */}
+
         {msg !== "" && (
           <Text style={styles.msg}>{msg}</Text>
         )}
 
-        {/* Login Link */}
+
         <TouchableOpacity
           onPress={() => navigation.navigate("Login")}
         >
@@ -96,7 +96,7 @@ export default function RegisterScreen({ navigation }) {
 
 const styles = StyleSheet.create({
 
-  /* Main Container */
+
 
   container: {
     flex: 1,
@@ -105,7 +105,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
 
-  /* Background Circles */
+
 
   circleLeft: {
     position: "absolute",
@@ -137,7 +137,7 @@ const styles = StyleSheet.create({
     right: -40,
   },
 
-  /* Card */
+
 
   card: {
     backgroundColor: "#fff",
@@ -152,7 +152,7 @@ const styles = StyleSheet.create({
     shadowRadius: 12,
   },
 
-  /* Text */
+
 
   title: {
     fontSize: 28,
@@ -165,7 +165,6 @@ const styles = StyleSheet.create({
     marginBottom: 25,
   },
 
-  /* Inputs */
 
   input: {
     width: "100%",
@@ -177,7 +176,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
 
-  /* Button */
+
 
   button: {
     backgroundColor: "#7F2145",
@@ -194,7 +193,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
 
-  /* Messages */
+
 
   msg: {
     marginTop: 10,

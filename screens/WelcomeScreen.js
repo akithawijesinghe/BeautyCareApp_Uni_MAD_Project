@@ -11,34 +11,34 @@ export default function WelcomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
 
-      {/* Decorative Circles */}
+
       <View style={styles.circle1} />
       <View style={styles.circle2} />
 
-      {/* Main Card */}
+
       <View style={styles.card}>
 
-        {/* Logo */}
+
         <Image
           source={require("../assets/logo.png")}
           style={styles.logo}
         />
 
-        {/* App Name */}
+
         <Text style={styles.title}>BeautyCare+</Text>
 
-        {/* Tagline */}
+
         <Text style={styles.subtitle}>
           Feel Beautiful. Feel Confident ✨
         </Text>
 
-        {/* Description */}
+
         <Text style={styles.desc}>
           Book beauty services easily and
           manage your care in one place.
         </Text>
 
-        {/* Button */}
+
         <TouchableOpacity
           style={styles.button}
           onPress={() => navigation.navigate("Register")}
@@ -56,7 +56,7 @@ export default function WelcomeScreen({ navigation }) {
 
 const styles = StyleSheet.create({
 
-  /* Main Background */
+
   container: {
     flex: 1,
     backgroundColor: "#fdeff4",
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
 
-  /* Decorative Shapes */
+
   circle1: {
     position: "absolute",
     width: 200,
@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
     opacity: 0.4,
   },
 
-  /* Card */
+
   card: {
     backgroundColor: "#fff",
     width: "88%",
@@ -101,7 +101,7 @@ const styles = StyleSheet.create({
     shadowRadius: 15,
   },
 
-  /* Logo */
+
   logo: {
     width: 150,
     height: 150,
@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
     marginBottom: 15,
   },
 
-  /* Title */
+
   title: {
     fontSize: 34,
     fontWeight: "bold",
@@ -117,14 +117,14 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 
-  /* Subtitle */
+
   subtitle: {
     fontSize: 17,
     color: "#555",
     marginBottom: 12,
   },
 
-  /* Description */
+
   desc: {
     fontSize: 14,
     color: "#888",
@@ -133,7 +133,7 @@ const styles = StyleSheet.create({
     lineHeight: 20,
   },
 
-  /* Button */
+
   button: {
     backgroundColor: "#7F2145",
     paddingVertical: 15,

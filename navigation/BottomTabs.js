@@ -3,7 +3,7 @@ import { MaterialIcons } from "@expo/vector-icons";
 
 import HomeScreen from "../screens/HomeScreen";
 import OrderScreen from "../screens/OrderScreen";
-import CatalogScreen from "../screens/CatalogScreen"; // ✅ MISSING IMPORT
+import CatalogScreen from "../screens/CatalogScreen";
 
 const Tab = createBottomTabNavigator();
 

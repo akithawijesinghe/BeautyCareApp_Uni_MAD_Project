@@ -42,11 +42,11 @@ export default function LoginScreen({ navigation }) {
   return (
     <View style={styles.container}>
 
-      {/* Background Circles */}
+
       <View style={styles.circleTop} />
       <View style={styles.circleBottom} />
 
-      {/* Main Card */}
+
       <View style={styles.card}>
 
         <Text style={styles.title}>Welcome Back ✨</Text>
@@ -94,7 +94,7 @@ export default function LoginScreen({ navigation }) {
 
 const styles = StyleSheet.create({
 
-  /* Main Background */
+
 
   container: {
     flex: 1,
@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
 
-  /* Decorative Circles */
+
 
   circleTop: {
     position: "absolute",
@@ -131,7 +131,7 @@ const styles = StyleSheet.create({
     zIndex: 0,
   },
 
-  /* Card */
+
 
   card: {
     backgroundColor: "#fff",
@@ -140,7 +140,7 @@ const styles = StyleSheet.create({
     padding: 28,
     alignItems: "center",
 
-    zIndex: 5,   // ⭐ IMPORTANT: Bring card to front
+    zIndex: 5,   
 
     elevation: 12,
     shadowColor: "#000",
