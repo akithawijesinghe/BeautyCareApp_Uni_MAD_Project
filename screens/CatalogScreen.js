@@ -77,7 +77,7 @@ export default function CatalogScreen() {
         </Text>
 
         <Text style={styles.subHeader}>
-          Explore our beauty services ✨
+          Explore our beauty services
         </Text>
       </View>
 

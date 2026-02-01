@@ -49,7 +49,7 @@ export default function LoginScreen({ navigation }) {
 
       <View style={styles.card}>
 
-        <Text style={styles.title}>Welcome Back ✨</Text>
+        <Text style={styles.title}>Welcome Back </Text>
         <Text style={styles.subtitle}>Login to continue</Text>
 
         <TextInput

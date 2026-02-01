@@ -44,7 +44,7 @@ export default function RegisterScreen({ navigation }) {
 
       <View style={styles.card}>
 
-        <Text style={styles.title}>Create Account ✨</Text>
+        <Text style={styles.title}>Create Account </Text>
         <Text style={styles.subtitle}>
           Join BeautyCare+ today
         </Text>

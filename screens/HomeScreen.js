@@ -28,7 +28,7 @@ export default function HomeScreen() {
         </Text>
 
         <Text style={styles.subText}>
-          Feel Beautiful, Feel Confident ✨
+          Feel Beautiful, Feel Confident
         </Text>
       </View>
 

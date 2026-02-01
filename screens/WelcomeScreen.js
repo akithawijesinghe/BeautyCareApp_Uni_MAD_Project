@@ -29,7 +29,7 @@ export default function WelcomeScreen({ navigation }) {
 
 
         <Text style={styles.subtitle}>
-          Feel Beautiful. Feel Confident ✨
+          Feel Beautiful. Feel Confident
         </Text>
 
 

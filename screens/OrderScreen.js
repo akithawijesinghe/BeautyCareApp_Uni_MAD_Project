@@ -18,7 +18,7 @@ export default function OrderScreen({ navigation }) {
       <View style={styles.headerBox}>
         <Text style={styles.title}>Book Your Service</Text>
         <Text style={styles.subtitle}>
-          Select a service to continue ✨
+          Select a service to continue 
         </Text>
       </View>
 
